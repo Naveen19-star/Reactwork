@@ -1,38 +1,611 @@
-.App {
-  text-align: center;
+/* Login Page  */
+.background{
+  background:url(https://wallpapers.com/images/high/food-4k-anl1yr892h6ccjeb.webp);
+  background-repeat: no-repeat;
+  background-position:top;
+  background-size: cover;
+  height: 742px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+  background-color:transparent;
+  border-radius:5%;
+  max-width:400px;
+  width:auto;
+  padding:30px;
+  margin:120px 0 0 180px;
+  transition: 0.3s;
+  color:#edede9;
+  backdrop-filter:blur(15px);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.login label{
+  color:#edede9;
+  font-weight:600;
+}
+/* Apply animation to h3 within div */
+div h3 {
+  color: #f6fff8;
+  text-shadow: 2px 2px 4px #343a40;
+  letter-spacing:2px;
+  display: flex;
+  margin-top: 240px;
+  animation: fadeIn 2s ease-out; /* Apply the fade-in animation */
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.image{
+  max-width: 100%;
+  border-top-right-radius:20px;
+  border-bottom-right-radius: 20px;
+  background-size: cover;
+}
+.button{
+  width:200px;
+  padding:5px;
+  border-radius:20px;
+  border:none;
+  margin-top:10px;
+  margin-left:65px;
+  font-size:20px;
+  background-color:#0077b6;
+  color:#caf0f8;
+  transition:0.3s;
+}
+.button:hover{
+  transform:scale(0.95);
+  background-color: #03045e;
+}
+.forgot{
+  margin:-15px 0 0 200px;
+  text-decoration: none;
+  color:#dda15e;
+  transition:0.2s;
+}
+.forgot:hover{
+  text-decoration:underline;
+
+}
+.sign{
+  margin:0 0 0 110px;
+  transition:0.2s;
+}
+.sign a{
+  text-decoration: none;
+  color:#dda15e;
+  transition:0.2s;
+}
+.sign a:hover{
+  text-decoration: underline;
+}
+
+.pass{
+  text-align: center;
+}
+.head{
+  text-align: center;
+}
+/* Sign up */
+.signup {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.head {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+input[type='text']::placeholder,
+input[type='email']::placeholder,
+input[type='password']::placeholder {
+  color: #888;
+}
+
+.in{
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  margin-left:5px;
+}
+
+.in:hover {
+  background-color: #0056b3;
+}
+
+a {
+  text-decoration: none;
+}
+/* Forgot */
+/* General container for the form */
+.forgot-password {
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Heading styles */
+.forgot-password .h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+/* Instruction text styles */
+.forgot-password .info {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #666666;
+}
+
+/* Input field styles */
+.forgot-password .form-control {
+  font-size: 1rem;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+/* Button styles */
+.forgot-password .btn-primary {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.1rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 4px 12px rgba(0, 123, 255, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.forgot-password .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Link to login page */
+.forgot-password .login-link {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #007bff;
+}
+
+/* Hover effect for the login link */
+.forgot-password .login-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-password .login-link a:hover {
+  text-decoration: underline;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 576px) {
+  .forgot-password {
+    padding: 20px;
+  }
+
+  .forgot-password .h1 {
+    font-size: 2rem;
+  }
+
+  .forgot-password .btn-primary {
+    padding: 12px;
+    font-size: 1rem;
+  }
+}
+/* Header */
+.main{
+  overflow-x:hidden;
+}
+.nav {
+  background-color: #343a40;
+  height:100vh;
+  padding:3%;
+  position: fixed;
+}
+.nav ul {
+  list-style: none;
+  padding:10px;
+}
+
+.nav ul li {
+  margin:40px 0;
+  padding: 10px;
+  background-color: #495057;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  overflow: hidden;
+}
+
+.nav ul li:hover {
+  background-color: #6c757d;
+}
+.logout{
+  margin-top:100px;
+}
+/* Main Layout */
+/* General Layout */
+.main {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between logo and cart icon */
+  background-color: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #eaeaea;
+  position: sticky;
+  top:0;
+}
+
+/* Logo Image */
+.img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+/* Cart Icon */
+.cart-icon {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-right: 10px;
+}
+
+.cart-icon .btn {
+  display: flex;
+  align-items: center;
+  background-color: #f8f8f8;
+  border: none;
+  outline: none;
+}
+/* Additional Styles for responsiveness */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cart-icon {
+    margin-top: 10px;
+  }
+}
+/* Card Styles */
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-color: #ffffff;
+}
+.card-item {
+  margin:50px; /* Adds space around each card */
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-img-top {
+  height:200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #777;
+}
+
+/* Button Styles */
+.button1 {
+  background-color: #ff6b6b; /* Bright red color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.button1:hover {
+  background-color: #ff4d4d; /* Darker red on hover */
+}
+
+.button1 svg {
+  margin-right: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cart-icon {
+    margin-top: 10px;
+    margin-right: 0; /* Remove margin on smaller screens */
+  }
+}
+
+
+/* menu card */
+.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Responsive grid layout */
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto; /* Center the menu */
+}
+
+.menu div {
+  background-color: #ffffff; /* Clean white background */
+  border-radius: 15px; /* Rounded corners for a modern feel */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Smooth transitions */
+  cursor: pointer;
+}
+
+.menu div:hover {
+  transform: scale(1.05); /* Slightly enlarge the item on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  background-color: #fffbf0; /* Light background color on hover */
+}
+
+.menu p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333; /* Dark gray for text */
+  margin: 0;
+  padding: 10px 0;
+  font-family: 'Arial', sans-serif; /* Clean, readable font */
+}
+.img{
+  max-width:100%;
+  height:80px;
+}
+/* Items */
+.items {
+  padding: 50px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem; /* Adjust the font size as needed */
+  margin-bottom: 30px; /* Space between title and cards */
+  color: #333; /* Title color */
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center align the cards */
+  gap:10%; /* Space between cards */
+}
+.box {
+  background-color: #fff; /* Card background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  overflow: hidden; /* Ensure the content doesn't overflow */
+  text-align:start;
+  width: 300px; /* Card width */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 5%;
+}
+
+.box img {
+  width: 100%; /* Make image fill the card */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.box p {
+  padding:2px; /* Space around text */
+  font-size: 1rem; /* Adjust font size */
+  color:black; /* Text color */
+}
+
+.box:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+.card-rating {
+  margin: 10px 0;
+  color: #f5c518; /* Gold color for stars */
+}
+
+.star-icon {
+  font-size: 1.2rem;
+}
+/* Contact */
+/* General styling for the contact page */
+.contact-page {
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 20px;
+}
+
+/* Content styling */
+/* Ensure full height for contact-page */
+.contact-page {
+  display: flex; /* Use flexbox for layout */
+  min-height: 100vh; /* Full viewport height */
+}
+
+/* Style for the content area */
+.content {
+  flex: 1; /* Take up remaining space */
+  padding: 20px; /* Space around content */
+}
+
+/* Contact content styling */
+.contact-content {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 800px; /* Limit the width */
+  margin: auto; /* Center the content */
+}
+
+/* Form styling */
+.contact-form {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.contact-form h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.cont{
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left:600px;
+}
+
+.cont:hover {
+  background-color: #0056b3;
+}
+/* Page Not Found */
+/* General styling for the 404 page */
+.page-not-found {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.error-code {
+  font-size: 6rem;
+  color: #dc3545; /* Red color for emphasis */
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.error-message {
+  font-size: 2rem;
+  color: #343a40; /* Dark color for text */
+  margin: 10px 0;
 }
+
+.error-description {
+  font-size: 1.2rem;
+  color: #6c757d; /* Light color for description */
+  margin-bottom: 20px;
+}
+
+.back-home-link {
+  font-size: 1.2rem;
+  color: #007bff; /* Primary color for link */
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-home-link:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+

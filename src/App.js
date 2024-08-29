@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import React from 'react';
+import Login from './components/Login.jsx';
+import Signup from './components/Signup.jsx';
+import Dashboard from './components/Dashboard.jsx';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-
+import Forgot from './components/Forgot.jsx';
+import Menu from './components/Menu.jsx';
+import Contact from './components/Contact.jsx';
+import Page from './components/Page.jsx';
+import Biryani from './components/Biryani.jsx';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <Router>
+        <Routes>
+          <Route path='/' element={<Login />}/>
+          <Route path='/Signup' element={<Signup />}/>
+          <Route path='/forgotpassword' element={<Forgot />}/>
+          <Route path='/home' element={<Dashboard />}/>
+          <Route path='/menu' element={<Menu />}/>
+          <Route path='/contact' element={<Contact />}/>
+          <Route path='/biryani' element={<Biryani />}/>
+          <Route path='*'element={<Page />}/>
+        </Routes>
+      </Router>
+  )
 }
-
-export default App;
+export default App
