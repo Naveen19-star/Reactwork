@@ -14,7 +14,7 @@ function App() {
   return (
       <Router>
         <Routes>
-          <Route path='/' element={<Login />}/>
+          <Route path='/Reactwork' element={<Login />}/>
           <Route path='/Signup' element={<Signup />}/>
           <Route path='/forgotpassword' element={<Forgot />}/>
           <Route path='/home' element={<Dashboard />}/>

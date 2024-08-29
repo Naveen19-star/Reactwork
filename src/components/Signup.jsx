@@ -10,7 +10,7 @@ function Signup() {
       <input type='email'placeholder='Enter Your email'/>
       <input type="password"placeholder='Enter your Password'/>
       <input type="password"placeholder='Confirm your Password'/>
-      <Link to='/'><button className="in">Sign In</button></Link>
+      <Link to='/Reactwork'><button className="in">Sign In</button></Link>
     </div>
 </Container>
   )

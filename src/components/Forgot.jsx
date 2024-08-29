@@ -19,7 +19,7 @@ function Forgot() {
             </Button>
           </Form>
           <p className='login-link mt-3'>
-            Remember your password? <Link to='/'>Go back to login</Link>
+            Remember your password? <Link to='/Reactwork'>Go back to login</Link>
           </p>
         </div>
       </Col>

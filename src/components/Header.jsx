@@ -12,7 +12,7 @@ function Header() {
       <Link to='/menu'><li><RestaurantMenuOutlinedIcon />Menu</li></Link>
       <Link to='/contact'><li><ContactPageOutlinedIcon /> Contact</li></Link>
       <ul className='logout'>
-      <Link to='/'className='m-5'><li><LogoutOutlinedIcon /> Logout</li></Link>
+      <Link to='/Reactwork'className='m-5'><li><LogoutOutlinedIcon /> Logout</li></Link>
       </ul>
     </ul>
    </div>
