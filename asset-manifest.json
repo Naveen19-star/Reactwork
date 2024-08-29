@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Reactwork/static/css/main.158e7311.css",
+    "main.js": "/Reactwork/static/js/main.cbe7c32b.js",
+    "static/js/453.9b7abf11.chunk.js": "/Reactwork/static/js/453.9b7abf11.chunk.js",
+    "static/media/pizza.png": "/Reactwork/static/media/pizza.2aa9c962f4674005be14.png",
+    "static/media/Thali.png": "/Reactwork/static/media/Thali.253e75aaeeff87e0c478.png",
+    "static/media/chinese.png": "/Reactwork/static/media/chinese.d8de0db7fada405dfdb7.png",
+    "static/media/Joint.jpg": "/Reactwork/static/media/Joint.8729afed832a200d1e76.jpg",
+    "static/media/biryani.png": "/Reactwork/static/media/biryani.f11f046f853a5fffb887.png",
+    "static/media/Kalmi.jpg": "/Reactwork/static/media/Kalmi.9ca939f4337dd04640d3.jpg",
+    "static/media/ice.png": "/Reactwork/static/media/ice.475f2bcbf844fa0b58ac.png",
+    "static/media/logo.jpg": "/Reactwork/static/media/logo.0f93372699f94ded7a63.jpg",
+    "static/media/Tikka.jpg": "/Reactwork/static/media/Tikka.69a31ec620687a57cff0.jpg",
+    "static/media/Hyderabadi-chicken-Biryani.jpg": "/Reactwork/static/media/Hyderabadi-chicken-Biryani.df75e5725116cb24e5ce.jpg",
+    "static/media/Boneless.jpg": "/Reactwork/static/media/Boneless.8ff07e8a190c43262849.jpg",
+    "static/media/mughalayi.jpg": "/Reactwork/static/media/mughalayi.d10f7f7eb3c98dbf94da.jpg",
+    "static/media/Fry.jpg": "/Reactwork/static/media/Fry.2eb62df11e8e5d29f41c.jpg",
+    "index.html": "/Reactwork/index.html",
+    "main.158e7311.css.map": "/Reactwork/static/css/main.158e7311.css.map",
+    "main.cbe7c32b.js.map": "/Reactwork/static/js/main.cbe7c32b.js.map",
+    "453.9b7abf11.chunk.js.map": "/Reactwork/static/js/453.9b7abf11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.158e7311.css",
+    "static/js/main.cbe7c32b.js"
+  ]
+}
