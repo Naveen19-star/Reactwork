@@ -6,7 +6,6 @@ import Chinese from '../Images/chinese.png';
 import Thali from '../Images/Thali.png';
 import Pizza from '../Images/pizza.png';
 import Ice from '../Images/ice.png';
-import Logo from '../Images/logo.jpg';
 import StarOutlinedIcon from '@mui/icons-material/StarOutlined'; // Use StarOutlinedIcon for empty stars
 import StarIcon from '@mui/icons-material/Star';
 import Header from './Header';

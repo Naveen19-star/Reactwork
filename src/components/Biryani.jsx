@@ -3,7 +3,7 @@ import { Row, Col, Card, Button, Badge } from 'react-bootstrap';
 import Header from './Header';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import { productsData } from '../Data/Items'; // Importing product data
-import Logo from '../Images/logo.jpg';
+import Logo from '../Images/logo.png';
 
 function Biryani() {
   const [cart, setCart] = useState([]);

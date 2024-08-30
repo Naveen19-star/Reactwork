@@ -5,6 +5,8 @@ import img4 from '../Images/Boneless.jpg';
 import img5 from '../Images/Tikka.jpg';
 import img6 from '../Images/Kalmi.jpg';
 import img7 from '../Images/Joint.jpg';
+import img8 from '../Images/lollipop.jpg';
+import img9 from '../Images/Donne.jpg';
 export const productsData= [{
     id:"1",
     itemName:"Chicken Dum Biryani ",
@@ -49,14 +51,14 @@ export const productsData= [{
 },
 {
     id:"8",
-    itemName:"Chicken Tikka Biryani",
-    image:img5,
-    Price:"₹380",
+    itemName:"Chicken Lollipop Biryani",
+    image:img8,
+    Price:"₹400",
 },
 {
     id:"9",
-    itemName:"Chicken Tikka Biryani",
-    image:img5,
-    Price:"₹380",
+    itemName:"Chicken Donne Biryani",
+    image:img9,
+    Price:"₹350",
 },
 ]
