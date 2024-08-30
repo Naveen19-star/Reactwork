@@ -2,15 +2,15 @@ import React, { useState } from 'react';
 import { Row, Col, Card, Button, Badge } from 'react-bootstrap';
 import Header from './Header';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
-import { productsData } from '../Data/Items';
+import { thaliData } from '../Data/Items';
 import { Link } from 'react-router-dom';
 import Rice from '../Images/biryani.png';
 import Chinese from '../Images/chinese.png';
-import Thali from '../Images/Thali.png';
+import thali from '../Images/Thali.png';
 import Pizza from '../Images/pizza.png';
 import Ice from '../Images/ice.png';
 import Logo from '../Images/logo.png';
-function Biryani() {
+function Thali() {
   const [cart, setCart] = useState([]);
 
   const addToCart = (product) => {
@@ -42,12 +42,12 @@ function Biryani() {
         <p>Biryani</p></Link>
       </div>
       <div>
-       <Link to='/thali'> <img src={Thali} alt='Thali' className='img'/>
+      <Link to='/thali'><img src={thali} alt='Thali' className='img'/>
         <p>Thali</p></Link>
       </div>
       <div>
-        <Link to='/chinese'><img src={Chinese} alt='Chinese' className='img'/>
-        <p>Chinese</p></Link>
+      <Link to='/chinese'><img src={Chinese} alt='Chinese' className='img'/>
+        <p>Chinese</p></Link> 
       </div>
       <div>
       <Link to='/pizza'><img src={Pizza} alt='Pizza' className='img'/>
@@ -59,11 +59,11 @@ function Biryani() {
       </div>
     </div>          
           {/* Page Title */}
-          <h1 className="page-title text-center my-4">Biryani Delight</h1>
+          <h1 className="page-title text-center my-4">Thali Platter</h1>
           
           {/* Display Products */}
           <Row className="p-3">
-            {productsData.map((product) => (
+            {thaliData.map((product) => (
               <Col key={product.id} sm={6} md={4} lg={3} className="mb-4 card-item">
                 <Card className="h-100 product-card">
                   <Card.Img variant="top" src={product.image} alt={product.itemName} />
@@ -88,4 +88,4 @@ function Biryani() {
   );
 }
 
-export default Biryani;
+export default Thali;

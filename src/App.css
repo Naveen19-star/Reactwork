@@ -270,52 +270,86 @@ a {
 /* Main Layout */
 /* General Layout */
 .main {
-  padding: 20px;
-  background-color: #f9f9f9;
+  background-color: #f7f7f7;
 }
 
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* Space between logo and cart icon */
-  background-color: #343a40;
-  padding: 10px 20px;
-  border-bottom: 1px solid #eaeaea;
-  position: sticky;
-  top:0;
-}
-
-/* Logo Image */
-.img {
-  max-width: 100%;
-  height: auto;
+  background-color: #1b263b;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 10px;
 }
-/* Cart Icon */
-.cart-icon {
-  display: flex;
-  align-items: center;
+
+.logo-container h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #778da9;
+}
+
+.cart-btn {
   position: relative;
-  margin-right: 10px;
 }
 
-.cart-icon .btn {
+.cart-icon .badge {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  font-size: 0.8rem;
+}
+
+.page-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #333;
+}
+
+.product-card {
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-title {
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  color: #444;
+}
+
+.product-price {
+  color: #888;
+  font-size: 1rem;
+}
+
+.add-to-cart-btn {
+  background-color: #ff7a00;
+  border-color: #ff7a00;
+  font-family: 'Poppins', sans-serif;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #ff9d42;
+  border-color: #ff9d42;
+}
+
+.button1 {
   display: flex;
   align-items: center;
-  background-color: #f8f8f8;
-  border: none;
-  outline: none;
+  justify-content: center;
 }
-/* Additional Styles for responsiveness */
-@media (max-width: 768px) {
-  .header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
 
-  .cart-icon {
-    margin-top: 10px;
-  }
+.card-item {
+  transition: transform 0.2s ease;
+}
+
+.card-item:hover {
+  transform: scale(1.05);
 }
 /* Card Styles */
 .card {

@@ -9,7 +9,7 @@ function Login() {
     <Row>
       <Col sm={6}>
       <div>
-        <h3>Welcome to [Your Site Name] – Where Every Bite is a Delight</h3>
+        <h3>Welcome to Mr.Chef - Where Every Bite is a Delight</h3>
       </div>
       </Col>
       <Col sm={6}>

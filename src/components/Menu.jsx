@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
-import { Row, Col } from 'react-bootstrap';
+import React from 'react';
+import { Row, Col , Button } from 'react-bootstrap';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import Biryani from '../Images/biryani.png';
 import Chinese from '../Images/chinese.png';
 import Thali from '../Images/Thali.png';
 import Pizza from '../Images/pizza.png';
 import Ice from '../Images/ice.png';
+import Logo from '../Images/logo.png';
 import StarOutlinedIcon from '@mui/icons-material/StarOutlined'; // Use StarOutlinedIcon for empty stars
 import StarIcon from '@mui/icons-material/Star';
 import Header from './Header';
@@ -19,26 +20,37 @@ function Menu() {
     <Header/>
     </Col>
     <Col sm={10}>
+    <div className="header d-flex justify-content-between align-items-center p-3">
+            <div className="logo-container d-flex align-items-center">
+              <img src={Logo} alt="logo" className="img" width="90px" />
+              <h2 className="ms-3">MR.Chef</h2>
+            </div>
+            <div className="cart-icon">
+              <Button variant="outline-secondary" size="lg" className="cart-btn">
+                <ShoppingCartOutlinedIcon fontSize="medium" />
+              </Button>
+            </div>
+          </div>
     <div className="menu">
       <div>
         <Link to='/biryani'><img src={Biryani} alt='Biryani' className='img'/>
         <p>Biryani</p></Link>
       </div>
       <div>
-        <img src={Thali} alt='Thali' className='img'/>
-        <p>Thali</p>
+      <Link to='/thali'><img src={Thali} alt='Thali' className='img'/>
+        <p>Thali</p></Link>
       </div>
       <div>
-        <img src={Chinese} alt='Chinese' className='img'/>
-        <p>Chinese</p>
+        <Link to='/chinese'><img src={Chinese} alt='Chinese' className='img'/>
+        <p>Chinese</p></Link>
       </div>
       <div>
-        <img src={Pizza} alt='Pizza' className='img'/>
-        <p>Pizza</p>
+      <Link to='/pizza'><img src={Pizza} alt='Pizza' className='img'/>
+        <p>Pizza</p></Link>
       </div>
       <div>
-      <img src={Ice} alt='Ice Cream' className='img'/>
-        <p>Ice Cream</p>
+      <Link to='/icecream'><img src={Ice} alt='Ice Cream' className='img'/>
+        <p>Ice Cream</p></Link>
       </div>
     </div>
  
