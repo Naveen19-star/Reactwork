@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Reactwork/static/css/main.158e7311.css",
-    "main.js": "/Reactwork/static/js/main.cbe7c32b.js",
+    "main.css": "/Reactwork/static/css/main.89d37037.css",
+    "main.js": "/Reactwork/static/js/main.cb42d1aa.js",
     "static/js/453.9b7abf11.chunk.js": "/Reactwork/static/js/453.9b7abf11.chunk.js",
     "static/media/pizza.png": "/Reactwork/static/media/pizza.2aa9c962f4674005be14.png",
     "static/media/Thali.png": "/Reactwork/static/media/Thali.253e75aaeeff87e0c478.png",
@@ -10,19 +10,36 @@
     "static/media/biryani.png": "/Reactwork/static/media/biryani.f11f046f853a5fffb887.png",
     "static/media/Kalmi.jpg": "/Reactwork/static/media/Kalmi.9ca939f4337dd04640d3.jpg",
     "static/media/ice.png": "/Reactwork/static/media/ice.475f2bcbf844fa0b58ac.png",
-    "static/media/logo.jpg": "/Reactwork/static/media/logo.0f93372699f94ded7a63.jpg",
+    "static/media/Maharashtrian.jpg": "/Reactwork/static/media/Maharashtrian.37e0ac57a3666830f98b.jpg",
+    "static/media/Donne.jpg": "/Reactwork/static/media/Donne.9961fda506add2807e6d.jpg",
     "static/media/Tikka.jpg": "/Reactwork/static/media/Tikka.69a31ec620687a57cff0.jpg",
+    "static/media/Panner.jpg": "/Reactwork/static/media/Panner.ac54572e667e5853b4d5.jpg",
+    "static/media/Mutton.jpg": "/Reactwork/static/media/Mutton.39245de7abd55d96eff2.jpg",
+    "static/media/Prawns.jpg": "/Reactwork/static/media/Prawns.eef9b78345df456a795b.jpg",
+    "static/media/Punjabi.jpg": "/Reactwork/static/media/Punjabi.0beff4785fc7bf2eca5e.jpg",
+    "static/media/Pot.jpg": "/Reactwork/static/media/Pot.ec8d812038d6713dc85c.jpg",
+    "static/media/Nonveg.jpg": "/Reactwork/static/media/Nonveg.339133e8a019676aa509.jpg",
+    "static/media/logo.png": "/Reactwork/static/media/logo.4d497c7108d95d89d69b.png",
+    "static/media/North.jpg": "/Reactwork/static/media/North.027cc8f917d32554142d.jpg",
+    "static/media/Mushroom.jpg": "/Reactwork/static/media/Mushroom.d49262699c810b71e205.jpg",
+    "static/media/South.jpg": "/Reactwork/static/media/South.d301ce26b1b8332f252a.jpg",
     "static/media/Hyderabadi-chicken-Biryani.jpg": "/Reactwork/static/media/Hyderabadi-chicken-Biryani.df75e5725116cb24e5ce.jpg",
+    "static/media/Rajasthani.jpg": "/Reactwork/static/media/Rajasthani.a6fcbcb26724a31c6a35.jpg",
+    "static/media/lollipop.jpg": "/Reactwork/static/media/lollipop.03516464c7c60c4a50ad.jpg",
     "static/media/Boneless.jpg": "/Reactwork/static/media/Boneless.8ff07e8a190c43262849.jpg",
+    "static/media/Fish.jpg": "/Reactwork/static/media/Fish.3678430262ff97a5d895.jpg",
+    "static/media/Vegthali.jpg": "/Reactwork/static/media/Vegthali.735dc389df572f3ebf22.jpg",
+    "static/media/Gujurathi.jpg": "/Reactwork/static/media/Gujurathi.0d783721eff2a79d4f03.jpg",
+    "static/media/Bengali.jpg": "/Reactwork/static/media/Bengali.913d122725b1b831176f.jpg",
     "static/media/mughalayi.jpg": "/Reactwork/static/media/mughalayi.d10f7f7eb3c98dbf94da.jpg",
     "static/media/Fry.jpg": "/Reactwork/static/media/Fry.2eb62df11e8e5d29f41c.jpg",
     "index.html": "/Reactwork/index.html",
-    "main.158e7311.css.map": "/Reactwork/static/css/main.158e7311.css.map",
-    "main.cbe7c32b.js.map": "/Reactwork/static/js/main.cbe7c32b.js.map",
+    "main.89d37037.css.map": "/Reactwork/static/css/main.89d37037.css.map",
+    "main.cb42d1aa.js.map": "/Reactwork/static/js/main.cb42d1aa.js.map",
     "453.9b7abf11.chunk.js.map": "/Reactwork/static/js/453.9b7abf11.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.158e7311.css",
-    "static/js/main.cbe7c32b.js"
+    "static/css/main.89d37037.css",
+    "static/js/main.cb42d1aa.js"
   ]
 }
