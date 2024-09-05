@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Reactwork/static/css/main.89d37037.css",
-    "main.js": "/Reactwork/static/js/main.cb42d1aa.js",
+    "main.css": "/Reactwork/static/css/main.752c7726.css",
+    "main.js": "/Reactwork/static/js/main.5b644dd3.js",
     "static/js/453.9b7abf11.chunk.js": "/Reactwork/static/js/453.9b7abf11.chunk.js",
     "static/media/pizza.png": "/Reactwork/static/media/pizza.2aa9c962f4674005be14.png",
+    "static/media/Background.jpeg": "/Reactwork/static/media/Background.4b26582baa5a497cb37d.jpeg",
     "static/media/Thali.png": "/Reactwork/static/media/Thali.253e75aaeeff87e0c478.png",
     "static/media/chinese.png": "/Reactwork/static/media/chinese.d8de0db7fada405dfdb7.png",
     "static/media/Joint.jpg": "/Reactwork/static/media/Joint.8729afed832a200d1e76.jpg",
@@ -34,12 +35,12 @@
     "static/media/mughalayi.jpg": "/Reactwork/static/media/mughalayi.d10f7f7eb3c98dbf94da.jpg",
     "static/media/Fry.jpg": "/Reactwork/static/media/Fry.2eb62df11e8e5d29f41c.jpg",
     "index.html": "/Reactwork/index.html",
-    "main.89d37037.css.map": "/Reactwork/static/css/main.89d37037.css.map",
-    "main.cb42d1aa.js.map": "/Reactwork/static/js/main.cb42d1aa.js.map",
+    "main.752c7726.css.map": "/Reactwork/static/css/main.752c7726.css.map",
+    "main.5b644dd3.js.map": "/Reactwork/static/js/main.5b644dd3.js.map",
     "453.9b7abf11.chunk.js.map": "/Reactwork/static/js/453.9b7abf11.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89d37037.css",
-    "static/js/main.cb42d1aa.js"
+    "static/css/main.752c7726.css",
+    "static/js/main.5b644dd3.js"
   ]
 }
