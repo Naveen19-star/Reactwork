@@ -1,9 +1,9 @@
 /* Login Page  */
 .background{
-  background:url(https://wallpapers.com/images/high/food-4k-anl1yr892h6ccjeb.webp);
+  background:url("./Images/Background.jpeg");
   background-repeat: no-repeat;
-  background-position:top;
-  background-size: cover;
+  background-position:center;
+  background-size:cover;
   height: 742px;
 }
 .login{

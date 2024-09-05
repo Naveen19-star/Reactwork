@@ -24,7 +24,7 @@ function Biryani() {
           <Header />
         </Col>
         <Col sm={10}>
-          <div className="header d-flex justify-content-between align-items-center p-3">
+          <div className="header d-flex justify-content-between align-items-center p-3 m-3">
             <div className="logo-container d-flex align-items-center">
               <img src={Logo} alt="logo" className="img" width="90px" />
               <h2 className="ms-3">Mr.Chef</h2>

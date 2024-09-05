@@ -11,6 +11,7 @@ import Contact from './components/Contact.jsx';
 import Page from './components/Page.jsx';
 import Biryani from './components/Biryani.jsx';
 import Thali from './components/Thali.jsx';
+import Chinese from './components/Chinese.jsx';
 function App() {
   return (
       <Router>
@@ -23,6 +24,7 @@ function App() {
           <Route path='/contact' element={<Contact />}/>
           <Route path='/biryani' element={<Biryani />}/>
           <Route path='/thali' element={<Thali />}/>
+          <Route path='/chinese' element={<Chinese />}/>
           <Route path='*'element={<Page />}/>
         </Routes>
       </Router>

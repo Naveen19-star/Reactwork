@@ -168,3 +168,58 @@ export const thaliData= [{
     Price:"₹250",
 },
 ]
+export const chineseData= [{
+    id:"16",
+    itemName:"Veg Thali ",
+    image:img16,
+    Price:"₹200",
+},
+{
+    id:"17",
+    itemName:"Non Veg Thali",
+    image:img17,
+    Price:"₹230",
+},
+{
+    id:"18",
+    itemName:"North Indian Thali",
+    image:img18,
+    Price:"₹240",
+},
+{
+    id:"19",
+    itemName:"South Indian Thali",
+    image:img19,
+    Price:"₹220",
+},
+{
+    id:"20",
+    itemName:"Rajasthani Thali",
+    image:img20,
+    Price:"₹250",
+},
+{
+    id:"21",
+    itemName:"Gujarati Thali",
+    image:img21,
+    Price:"₹250",
+},
+{
+    id:"22",
+    itemName:" Maharashtrian Thali",
+    image:img22,
+    Price:"₹250",
+},
+{
+    id:"23",
+    itemName:"Punjabi Thali",
+    image:img23,
+    Price:"₹250",
+},
+{
+    id:"24",
+    itemName:"Bengali Thali",
+    image:img24,
+    Price:"₹250",
+},
+]
