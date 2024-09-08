@@ -268,7 +268,6 @@ a {
   margin-top:100px;
 }
 /* Main Layout */
-/* General Layout */
 .main {
   background-color: #f7f7f7;
 }
@@ -286,7 +285,10 @@ a {
 
 .logo-container h2 {
   font-family: 'Roboto', sans-serif;
-  color: #778da9;
+  color: #e0e1dd;
+}
+.img{
+  border-radius:10%;
 }
 
 .cart-btn {
@@ -642,4 +644,3 @@ a {
   background-color: #007bff;
   color: #fff;
 }
-

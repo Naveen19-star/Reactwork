@@ -12,6 +12,8 @@ import Page from './components/Page.jsx';
 import Biryani from './components/Biryani.jsx';
 import Thali from './components/Thali.jsx';
 import Chinese from './components/Chinese.jsx';
+import Pizza from './components/Pizza.jsx';
+import Icecream from './components/Icecream.jsx';
 function App() {
   return (
       <Router>
@@ -25,6 +27,8 @@ function App() {
           <Route path='/biryani' element={<Biryani />}/>
           <Route path='/thali' element={<Thali />}/>
           <Route path='/chinese' element={<Chinese />}/>
+          <Route path='/pizza' element={<Pizza />}/>
+          <Route path='/icecream' element={<Icecream />}/>
           <Route path='*'element={<Page />}/>
         </Routes>
       </Router>

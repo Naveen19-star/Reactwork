@@ -9,7 +9,7 @@ import Chinese from '../Images/chinese.png';
 import thali from '../Images/Thali.png';
 import Pizza from '../Images/pizza.png';
 import Ice from '../Images/ice.png';
-import Logo from '../Images/logo.png';
+import Logo from '../Images/logo.jpg';
 function Thali() {
   const [cart, setCart] = useState([]);
 
@@ -30,9 +30,9 @@ function Thali() {
               <h2 className="ms-3">Mr.Chef</h2>
             </div>
             <div className="cart-icon">
-              <Button variant="outline-secondary" size="lg" className="cart-btn">
+              <Button variant="outline-primary" size="lg" className="cart-btn">
                 <ShoppingCartOutlinedIcon fontSize="medium" />
-                <Badge bg="secondary">{cart.length}</Badge>
+                <Badge bg="danger">{cart.length}</Badge>
               </Button>
             </div>
           </div>

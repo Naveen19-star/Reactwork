@@ -6,7 +6,7 @@ import Chinese from '../Images/chinese.png';
 import Thali from '../Images/Thali.png';
 import Pizza from '../Images/pizza.png';
 import Ice from '../Images/ice.png';
-import Logo from '../Images/logo.png';
+import Logo from '../Images/logo.jpg';
 import StarOutlinedIcon from '@mui/icons-material/StarOutlined'; // Use StarOutlinedIcon for empty stars
 import StarIcon from '@mui/icons-material/Star';
 import Header from './Header';
@@ -26,7 +26,7 @@ function Menu() {
               <h2 className="ms-3">MR.Chef</h2>
             </div>
             <div className="cart-icon">
-              <Button variant="outline-secondary" size="lg" className="cart-btn">
+              <Button variant="outline-primary" size="lg" className="cart-btn">
                 <ShoppingCartOutlinedIcon fontSize="medium" />
               </Button>
             </div>
