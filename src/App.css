@@ -644,3 +644,94 @@ a {
   background-color: #007bff;
   color: #fff;
 }
+/* Dashboard */
+.main {
+  background:radial-gradient(#57A5B8 ,#D2E0DD);
+}
+
+.dashboard-content h1 {
+  font-size: 2.5rem;
+  color: #343a40;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.dashboard-content h5 {
+  font-size: 1.2rem;
+  color: #6c757d;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.food-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.food-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.food-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.food-card:hover img {
+  opacity: 0.9;
+}
+
+.food-card .card-body {
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.food-card .card-title {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin-bottom: 0.5rem;
+}
+
+.food-card .card-text {
+  font-size: 1rem;
+  color: #495057;
+}
+
+.food-card .card-body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1));
+  z-index: 0;
+}
+
+.food-card .card-body {
+  position: relative;
+  z-index: 1;
+}
+.explore-button {
+  background-color: #212529;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-bottom:50px;
+}
+
+.explore-button:hover {
+  background-color: #495057;
+  transform: scale(1.05);
+}
