@@ -363,7 +363,7 @@ a {
   background-color: #ffffff;
 }
 .card-item {
-  margin:50px; /* Adds space around each card */
+  margin:40px; /* Adds space around each card */
 }
 
 .card:hover {
@@ -468,7 +468,7 @@ a {
 }
 /* Items */
 .items {
-  padding: 50px;
+  padding:50px;
   text-align: center;
 }
 
@@ -482,7 +482,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; /* Center align the cards */
-  gap:10%; /* Space between cards */
+  gap:8%; /* Space between cards */
 }
 .box {
   background-color: #fff; /* Card background color */

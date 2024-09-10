@@ -48,7 +48,7 @@ function Dashboard() {
             <h5>Explore our delicious food items!</h5>
             <Row className="justify-content-center">
               {foodItems.map((item) => (
-                <Col key={item.id} xs={12} sm={6} md={4} lg={3} className="mb-5 mx-4 d-flex">
+                <Col key={item.id} xs={12} sm={6} md={4} lg={3} className="mb-5 mx-5 d-flex">
                   <Card className="food-card flex-fill">
                     <Card.Img variant="top" src={item.imageUrl} />
                     <Card.Body>

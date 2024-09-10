@@ -63,8 +63,8 @@ function Menu() {
               alt="Chicken Dum Biryani" 
               className="card-image"
             />
-            <p>Chicken Dum Biryani</p>
-            <div className="card-rating">
+            <p className='px-2 pt-1'>Chicken Dum Biryani</p>
+            <div className="card-rating px-2">
               {[...Array(5)].map((_, index) => (
                 index < rating ? 
                   <StarIcon key={index} className="star-icon" /> :
@@ -78,8 +78,8 @@ function Menu() {
               alt="Chicken Donne Biryani" 
               className="card-image"
             />
-            <p>Chicken Donne Biryani</p>
-            <div className="card-rating">
+            <p className='px-2 pt-1'>Chicken Donne Biryani</p>
+            <div className="card-rating px-2">
               {[...Array(5)].map((_, index) => (
                 index < rating ? 
                   <StarIcon key={index} className="star-icon" /> :
@@ -93,8 +93,8 @@ function Menu() {
               alt="Chicken Tikka Biryani" 
               className="card-image"
             />
-            <p>Chicken Tikka Biryani</p>
-            <div className="card-rating">
+            <p className='px-2 pt-1'>Chicken Tikka Biryani</p>
+            <div className="card-rating px-2">
               {[...Array(5)].map((_, index) => (
                 index < rating ? 
                   <StarIcon key={index} className="star-icon" /> :
@@ -108,8 +108,8 @@ function Menu() {
               alt="Chicken Boneless Biryani" 
               className="card-image"
             />
-            <p>Chicken Boneless Biryani</p>
-            <div className="card-rating">
+            <p className='px-2 pt-1'>Chicken Boneless Biryani</p>
+            <div className="card-rating px-2">
               {[...Array(5)].map((_, index) => (
                 index < rating ? 
                   <StarIcon key={index} className="star-icon" /> :
@@ -123,8 +123,8 @@ function Menu() {
               alt="Chicken Mughlai Biryani" 
               className="card-image"
             />
-            <p>Chicken Mughlai Biryani</p>
-            <div className="card-rating">
+            <p className='px-2 pt-1'>Chicken Mughlai Biryani</p>
+            <div className="card-rating px-2">
               {[...Array(5)].map((_, index) => (
                 index < rating ? 
                   <StarIcon key={index} className="star-icon" /> :
@@ -138,8 +138,8 @@ function Menu() {
               alt="Chicken Lollipop Biryani" 
               className="card-image"
             />
-            <p>Chicken Lollipop Biryani</p>
-            <div className="card-rating">
+            <p className='px-2 pt-1'>Chicken Lollipop Biryani</p>
+            <div className="card-rating px-2">
               {[...Array(5)].map((_, index) => (
                 index < rating ? 
                   <StarIcon key={index} className="star-icon" /> :
@@ -153,8 +153,8 @@ function Menu() {
               alt="Chicken Fried Rice" 
               className="card-image"
             />
-            <p>Chicken Fried Rice</p>
-            <div className="card-rating">
+            <p className='px-2 pt-1'>Chicken Fried Rice</p>
+            <div className="card-rating px-2">
               {[...Array(5)].map((_, index) => (
                 index < rating ? 
                   <StarIcon key={index} className="star-icon" /> :
@@ -168,8 +168,8 @@ function Menu() {
               alt="Shezwan Fried Rice" 
               className="card-image"
             />
-            <p>Shezwan Fried Rice</p>
-            <div className="card-rating">
+            <p className='px-2 pt-1'>Shezwan Fried Rice</p>
+            <div className="card-rating px-2">
               {[...Array(5)].map((_, index) => (
                 index < rating ? 
                   <StarIcon key={index} className="star-icon" /> :
@@ -183,8 +183,8 @@ function Menu() {
               alt="Veg Manchurian" 
               className="card-image"
             />
-            <p>Veg Manchurian</p>
-            <div className="card-rating">
+            <p className='px-2 pt-1'>Veg Manchurian</p>
+            <div className="card-rating px-2">
               {[...Array(5)].map((_, index) => (
                 index < rating ? 
                   <StarIcon key={index} className="star-icon" /> :
@@ -198,8 +198,8 @@ function Menu() {
               alt="Chicken Chowmein" 
               className="card-image"
             />
-            <p>Chicken Chowmein</p>
-            <div className="card-rating">
+            <p className='px-2 pt-1'>Chicken Chowmein</p>
+            <div className="card-rating px-2">
               {[...Array(5)].map((_, index) => (
                 index < rating ? 
                   <StarIcon key={index} className="star-icon" /> :
@@ -213,8 +213,8 @@ function Menu() {
               alt="Chicken pizza" 
               className="card-image"
             />
-            <p>Chicken Pizza</p>
-            <div className="card-rating">
+            <p className='px-2 pt-1'>Chicken Pizza</p>
+            <div className="card-rating px-2">
               {[...Array(5)].map((_, index) => (
                 index < rating ? 
                   <StarIcon key={index} className="star-icon" /> :
@@ -228,8 +228,8 @@ function Menu() {
               alt="Chicken Tikka pizza" 
               className="card-image"
             />
-            <p>Chicken Tikka Pizza</p>
-            <div className="card-rating">
+            <p className='px-2 pt-1'>Chicken Tikka Pizza</p>
+            <div className="card-rating px-2">
               {[...Array(5)].map((_, index) => (
                 index < rating ? 
                   <StarIcon key={index} className="star-icon" /> :
@@ -243,8 +243,8 @@ function Menu() {
               alt="pizza" 
               className="card-image"
             />
-            <p>Japanese Chicken Pizza</p>
-            <div className="card-rating">
+            <p className='px-2 pt-1'>Japanese Chicken Pizza</p>
+            <div className="card-rating px-2">
               {[...Array(5)].map((_, index) => (
                 index < rating ? 
                   <StarIcon key={index} className="star-icon" /> :
@@ -258,8 +258,8 @@ function Menu() {
               alt="Thali" 
               className="card-image"
             />
-            <p>Indian Veg Thali</p>
-            <div className="card-rating">
+            <p className='px-2 pt-1'>Indian Veg Thali</p>
+            <div className="card-rating px-2">
               {[...Array(5)].map((_, index) => (
                 index < rating ? 
                   <StarIcon key={index} className="star-icon" /> :
@@ -273,8 +273,8 @@ function Menu() {
               alt="Thali" 
               className="card-image"
             />
-            <p>Gujarati Thali</p>
-            <div className="card-rating">
+            <p className='px-2 pt-1'>Gujarati Thali</p>
+            <div className="card-rating px-2">
               {[...Array(5)].map((_, index) => (
                 index < rating ? 
                   <StarIcon key={index} className="star-icon" /> :
@@ -288,8 +288,8 @@ function Menu() {
               alt="Thali" 
               className="card-image"
             />
-            <p>Bengali Thali</p>
-            <div className="card-rating">
+            <p className='px-2 pt-1'>Bengali Thali</p>
+            <div className="card-rating px-2">
               {[...Array(5)].map((_, index) => (
                 index < rating ? 
                   <StarIcon key={index} className="star-icon" /> :
@@ -303,8 +303,8 @@ function Menu() {
               alt="Ice Cream" 
               className="card-image"
             />
-            <p>Vadilal Ice Cream</p>
-            <div className="card-rating">
+            <p className='px-2 pt-1'>Vadilal Ice Cream</p>
+            <div className="card-rating px-2">
               {[...Array(5)].map((_, index) => (
                 index < rating ? 
                   <StarIcon key={index} className="star-icon" /> :
@@ -318,8 +318,8 @@ function Menu() {
               alt="Ice Cream" 
               className="card-image"
             />
-            <p>Arun Ice Cream</p>
-            <div className="card-rating">
+            <p className='px-2 pt-1'>Arun Ice Cream</p>
+            <div className="card-rating px-2">
               {[...Array(5)].map((_, index) => (
                 index < rating ? 
                   <StarIcon key={index} className="star-icon" /> :
